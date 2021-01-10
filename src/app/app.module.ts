@@ -9,6 +9,7 @@ import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AcercadeComponent } from './pages/acercade/acercade.component';
 import { ItemComponent } from './pages/item/item.component';
 import { HttpClientModule }from'@angular/common/http';
+import { SearchComponent } from './pages/search/search.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HttpClientModule }from'@angular/common/http';
     FooterComponent,
     PortafolioComponent,
     AcercadeComponent,
-    ItemComponent
+    ItemComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
